@@ -1,0 +1,120 @@
+@font-face /*Téléchargement de la police Raleway*/
+{
+    font-family: 'Raleway';
+    src: url('static/Raleway-Black.ttf'),
+          url('static/Raleway-BlackItalic.ttf')
+          url('Raleway-VariableFont_wght.ttf')
+          url('Raleway-Italic-VariableFont_wght.ttf')
+}
+*
+{
+font-family: 'Raleway', Arial, Verdana, sans-serif;    
+}
+#bloc_page
+{
+    margin: auto;
+}
+
+/* Header*/
+
+header
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+#logo img
+{
+    width: 59px;
+    height: 60px;
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+nav li
+{
+    margin-right: 15px;
+}
+nav a
+{
+    font-size: 1.3em;
+    color: #0065FC;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+nav a:hover
+{
+    color: #DEEBFF;
+    border-bottom: 3px solid #DEEBFF;
+}
+#localisation
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+/*Fin du header*/
+
+/*Hébergements à Marseille*/
+
+#Hébergements
+{
+    width: auto;
+    float: left;
+    background-color: #F2F2F2;
+
+}
+
+/*Fin hébergements à Marseille*/
+
+/*Les plus populaires*/
+
+#Les_plus_populaires
+{
+    width: auto;
+    float: left;
+    background-color: #F2F2F2;
+
+}
+
+/*Fin les plus populaires*/
+
+/*Activités à Marseille*/
+
+#Activités_à_Marseille
+{
+    width: auto;
+    float: left;
+    background-color: #F2F2F2;
+}
+
+/*Fin des activités à Marseille*/
+
+body
+{
+    font-family: 'Raleway', Arial, Verdana, sans-serif;
+    color: black;
+}
+h1
+{
+    color: black;
+    font-size: large;
+}
+h2
+{
+    color: black;
+    font-size: medium;
+}
+h3
+{
+    color: black;
+    font-size: small;
+}
