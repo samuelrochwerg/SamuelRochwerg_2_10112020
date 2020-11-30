@@ -20,6 +20,10 @@ h1
 p{
     font-size: small;
 }
+h3
+{
+    font-weight: bold;
+}
 
 /* Header*/
 
@@ -120,10 +124,6 @@ nav a:hover
 
 /*Filtres*/
 
-#filtres-section
-{
-
-}
 .titre-filtre
 {
     font-weight: bold;
@@ -168,45 +168,110 @@ h3
     font-weight: normal;
 }
 
-
-/*Filtres*/
-
 /*Hébergements à Marseille*/
 
-.container_hebergement
+.titre_container
 {
-    display: flex;
-    width: 75%;
-    justify-content: flex-start;
-    align-items: flex-start;
-    background-color: grey;
+    margin:0;
 }
-.container_hebergement_populaires
-{
-    display: flex;
-    width: 25%;
-    justify-content: flex-end;
-    align-items: flex-start;
-    background-color: grey;
-}
-.hebergement_carte
-{
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    width: min-content;
-    height: min-content;
-}
-.hebergement_image .thumb {
-	width:150px;
-	margin:3px;
-	} 
 
-.hebergement_image .thumb a:hover img {
-	width:300px;
-	margin:3px;
-	}	
+#container_hebergement
+
+{
+    height: 500px;
+    width: 750px;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.box_carte1, .box_carte2, .box_carte3, .box_carte4, .box_carte5, .box_carte6
+{
+    top: 60px;
+    width: 300x;
+    height: 150px;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: white;
+}
+.hebergement_image
+{
+    width: 210px;
+    height: 80px;
+}
+
+img
+{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+}
+.hebergement_contenu
+{
+    height: 100px;
+    max-width: 100%;
+}
+.hebergement_contenu h3
+{
+    font-weight: bold;
+    font-style: normal;
+}
+.hebergement_notation
+{
+    height: 100%;
+    align-items: flex-end;
+}
+.hebergement_montrer_plus
+{
+    align-items: flex-end;
+}
 
 /*Les plus populaires*/
+
+#container_hebergements_populaires
+{
+    height: 500px;
+    width: 750px;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.box_populaire_carte1, .box_populaire_carte2, .box_populaire_carte1
+{
+    width: 300x;
+    height: 150px;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: white;
+}
+.hebergement_populaire_image
+{
+    max-width: 100%;
+    height: 80px;
+}
+.hebergement_populaire_contenu
+{
+    height: 100px;
+    max-width: 100%;
+}
+
 
 /*Activités à Marseille*/
