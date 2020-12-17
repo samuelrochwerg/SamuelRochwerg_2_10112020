@@ -83,6 +83,13 @@ a:hover {
     text-decoration: underline;
     color: #0065FC;
 }
+                    
+.sinscrire
+{
+    color: #0065FC;
+    font-weight: bold;
+    font-size: 0.9em;
+}
 
 /*Titre principal*/
 
@@ -460,6 +467,7 @@ footer {
     padding: 48px 366px 51px 50px;
     background-color: #F2F2F2;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
 }
@@ -564,26 +572,34 @@ footer h2 {
 
 @media all and (max-width : 1250px)
 {
-    .activite1, .activite2, .activite3, .activite4, .activite5, .activite6
-    {
-        width: 303px;
-        height: 138px;
-    }
 
-    .photo_activite11, .photo_activite44 {
+    .photo_activite11, .photo_activite22, .photo_activite33, .photo_activite44, .photo_activite55, .photo_activite66 {
         width: 303px;
         height: 112px;
+    }
+    .activite1, .activite2, .activite3, .activite4, .activite5, .activite6
+    {
+        width: 309px;
+        height: 182px;
+        margin-right: 20px;
+    }
+    .activite2et3, .activite5et6
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
     }
     .activites
     {
         display: flex;
-        flex-direction: row;
+        justify-content: flex-start;
     }
+
     
 
 }
 
-/* @media all and (max-width : 1100px)
+@media all and (max-width : 1006px)
 {
     footer 
     {
@@ -597,133 +613,42 @@ footer h2 {
     .nos_hebergements
     {
         margin-bottom: 20px;
-    } */
-/* Smartphones*/
-/* @media only screen and (max-width : 768px)
-{
-    #hebergement
-    {
-        flex-direction: column;
-        width: 100%;
     }
-    .box_partie
+    .activite2et3, .activite5et6
     {
+        display: flex;
         flex-direction: column;
-    }
-    footer
-    {
-        flex-direction: column;
-    }
-    #container_hebergement:nth-child(1)
-{
-    order: 2;
-}
-    #container_hebergements_populaires:nth-child(2)
-    {
-        order:1;
     }
     .activites
     {
         flex-direction: column;
-        width: 100%;
-    }
-    #container_hebergements_populaires
-    {
-        margin-bottom: 30px;
-        width: 100%;
-    }
-    #container_hebergement
-    {
-        width: 100%;
-    }
-    .box_carte 
-    {
-        margin-bottom: 30px;
-    }
-    .activite1, .activite3, .activite4
-    {
-        margin-bottom: 30px;
     }
 
-    footer 
-    {
-        flex-direction: column;
-    }
-    .a_propos
-    {
-        margin-bottom: 30px;
-    }
-    .nos_hebergements
-    {
-        margin-bottom: 30px;
-    }
-   
-} */
+@media all and (max-width : 750px){
 
-/*Ecrans mediums*/
-/* @media only screen and (min-width: 768px) and (max-width: 1049px)
-{
-    #hebergement
-    {
-        flex-direction: row;
+    .filtre-bouton{
+        margin-bottom: 5px;
     }
-    #container_hebergements_populaires
-    {
-        margin-left: 40px;
-        margin-right: 50px;
-        min-width: 50%;
-        margin-bottom: 30px;
-    }
-    #container_hebergement
-    {
-        min-width: 50%;
-    }
-    .box_partie
-    {
-        flex-direction: column;
-    }
-    #container_hebergement:nth-child(1)
+    
+}
+
+@media all and (max-width : 425px){
+    #hebergements_a_marseille:nth-child(1)
     {
         order: 2;
     }
         #container_hebergements_populaires:nth-child(2)
         {
-            order:1;
+            order: 1;
         }
-    .activites
+    .filtre-bouton{
+        margin-bottom: 5px;
+    }
+    header{
+        flex-direction: column;
+    }
+    #filtres-section
     {
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
-    .titre_activites
-    {
-        margin-left: 50%;
-    }
-    .box_carte 
-    {
-        margin-bottom: 30px;
-    }
-    .activite1, .activite3, .activite4
-    {
-        margin-bottom: 30px;
-    }
-    .activite1, .activite4
-    {
-        margin-bottom: 50px;
-    }
-    .activite2, .activite5
-    {
-        margin-right: 50px;
-    }
-    .activite2et3, .activite5et6
-    {
-        flex-direction: row;
-    }
-
-} */
-/*Autres écrans (ne rien mettre car les paramètres de base fonctionnent*/
-/* @media only screen and (min-width: 1050px) and (max-width: 1320px)
-{
-
-} */
+}
