@@ -790,6 +790,7 @@ footer h2 {
         .activite6 {
             border-color: white;
             width: 354px;
+            margin-left: 40px;
         }
 
 
@@ -851,6 +852,15 @@ footer h2 {
         {
             margin-left: 35px;
         }
+        .activite1,
+        .activite2,
+        .activite3,
+        .activite4,
+        .activite5,
+        .activite6 {
+            margin-left: -10px;
+        }
+
 
     }
 
