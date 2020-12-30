@@ -68,13 +68,9 @@ nav li {
 
 nav a {
     font-size: 0.9em;
-    color: #0065fc;
+    color: black;
     padding-top: 3px;
     text-decoration: none;
-}
-
-nav a:hover {
-    border-top: 3px solid #0065fc;
 }
 
 a {
@@ -82,15 +78,32 @@ a {
     color: black;
     font-style: normal;
 }
-
-.navigation:hover {
+a:hover
+{
+    text-decoration: #0065FC;
     color: #0065FC;
 }
 
-.sinscrire {
+.navigation:hover {
+    color: #0065FC;
+    text-decoration: #0065FC;
+}
+
+.sinscrire a {
     color: #0065FC;
     font-weight: bold;
     font-size: 0.9em;
+}
+.hebergementancre, .activites_a_marseille_ancre, .sinscrire
+{
+    padding: 32px 32px 32px 32px;
+}
+.hebergementancre a, .activites_a_marseille_ancre a, .sinscrire a {
+    text-decoration: none;
+}
+.hebergementancre:hover, .activites_a_marseille_ancre:hover, .sinscrire:hover
+{
+    border-top: 3px solid #0065FC ;
 }
 
 /*Titre principal*/
@@ -643,6 +656,28 @@ footer h2 {
 
 
     @media all and (max-width : 425px) {
+        .box_carte, .activite1, .activite2, .activite3, .activite4, .activite5, .activite6
+        {
+            box-shadow: 0 0 20px #0000002e;
+        }
+
+        .hebergementancre:hover, .activites_a_marseille_ancre:hover, .sinscrire:hover
+        {
+            border-top: none;
+        }
+        .hebergementancre, .activites_a_marseille_ancre
+        {
+            border-bottom: 4px solid #F2F2F2;
+        }
+        .hebergementancre a:hover, .activites_a_marseille_ancre a:hover
+        {
+            color: #0065FC;
+            font-weight: bold;
+        }
+        .hebergementancre:hover, .activites_a_marseille_ancre:hover
+        {
+            border-bottom: 4px solid #0065FC;
+        }
 
         .titre_trouvez,
         .titre_enplein,
@@ -683,14 +718,22 @@ footer h2 {
             margin-bottom: 20px;
         }
 
-
         .box_carte {
-            width: 354px;
+            max-width: 354px;
+            margin-left: 10px;
+        }
+        .hebergement_montrer_plus
+        {
+            margin-left: 10px;
+        }
+        .titre_activites
+        {
+            margin-left: -10px;
         }
 
         .photo_hebergement {
             width: 330px;
-            margin-left: 10px;
+            margin-left: 2px;
         }
 
         .photo_activite11,
@@ -700,6 +743,8 @@ footer h2 {
         .photo_activite55,
         .photo_activite66 {
             width: 330px;
+            margin-left: 10px;
+            margin-top: 5px;
         }
 
         .activites {
@@ -733,7 +778,7 @@ footer h2 {
         .sinscrire {
             position: absolute;
             bottom: 50%;
-            right: 3%;
+            right: -6%;
 
         }
 
@@ -744,18 +789,7 @@ footer h2 {
         .activite5,
         .activite6 {
             border-color: white;
-        }
-
-        .hebergementancre a,
-        .activites_a_marseille_ancre a {
-            border-bottom: 3px #F2F2F2 solid;
-
-        }
-
-        .hebergementancre a:hover,
-        .activites_a_marseille_ancre a:hover {
-            border-bottom: 3px #0065FC solid;
-            border-top: none;
+            width: 354px;
         }
 
 
@@ -793,6 +827,10 @@ footer h2 {
         .titre_hebergements_a_marseille {
             margin-left: 20px;
         }
+        .titre_activite1, .titre_activite2, .titre_activite3, .titre_activite4, .titre_activite5, .titre_activite6
+        {
+            margin-left: 15px;
+        }
     }
 
     @media all and (max-width : 375px) {
@@ -807,7 +845,11 @@ footer h2 {
         .sinscrire {
             position: absolute;
             bottom: 50%;
-            right: -3%;
+            right: -15%;
+        }
+        .hebergementancre
+        {
+            margin-left: 35px;
         }
 
     }
@@ -816,7 +858,11 @@ footer h2 {
         .sinscrire {
             position: absolute;
             bottom: 50%;
-            right: -25%;
+            right: -30%;
+        }
+        .hebergementancre
+        {
+            margin-left: 35px;
         }
 
     }
