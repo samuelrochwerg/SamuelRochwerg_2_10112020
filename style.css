@@ -78,8 +78,8 @@ a {
     color: black;
     font-style: normal;
 }
-a:hover
-{
+
+a:hover {
     text-decoration: #0065FC;
     color: #0065FC;
 }
@@ -94,16 +94,23 @@ a:hover
     font-weight: bold;
     font-size: 0.9em;
 }
-.hebergementancre, .activites_a_marseille_ancre, .sinscrire
-{
+
+.hebergementancre,
+.activites_a_marseille_ancre,
+.sinscrire {
     padding: 32px 32px 32px 32px;
 }
-.hebergementancre a, .activites_a_marseille_ancre a, .sinscrire a {
+
+.hebergementancre a,
+.activites_a_marseille_ancre a,
+.sinscrire a {
     text-decoration: none;
 }
-.hebergementancre:hover, .activites_a_marseille_ancre:hover, .sinscrire:hover
-{
-    border-top: 3px solid #0065FC ;
+
+.hebergementancre:hover,
+.activites_a_marseille_ancre:hover,
+.sinscrire:hover {
+    border-top: 3px solid #0065FC;
 }
 
 /*Titre principal*/
@@ -654,28 +661,47 @@ footer h2 {
 
     }
 
+    @media all and (max-width : 665px) {
+
+        .activite2et3,
+        .activite5et6 {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
 
     @media all and (max-width : 425px) {
-        .box_carte, .activite1, .activite2, .activite3, .activite4, .activite5, .activite6
-        {
+
+        .box_carte,
+        .activite1,
+        .activite2,
+        .activite3,
+        .activite4,
+        .activite5,
+        .activite6 {
             box-shadow: 0 0 20px #0000002e;
         }
 
-        .hebergementancre:hover, .activites_a_marseille_ancre:hover, .sinscrire:hover
-        {
+        .hebergementancre:hover,
+        .activites_a_marseille_ancre:hover,
+        .sinscrire:hover {
             border-top: none;
         }
-        .hebergementancre, .activites_a_marseille_ancre
-        {
+
+        .hebergementancre,
+        .activites_a_marseille_ancre {
             border-bottom: 4px solid #F2F2F2;
         }
-        .hebergementancre a:hover, .activites_a_marseille_ancre a:hover
-        {
+
+        .hebergementancre a:hover,
+        .activites_a_marseille_ancre a:hover {
             color: #0065FC;
             font-weight: bold;
         }
-        .hebergementancre:hover, .activites_a_marseille_ancre:hover
-        {
+
+        .hebergementancre:hover,
+        .activites_a_marseille_ancre:hover {
             border-bottom: 4px solid #0065FC;
         }
 
@@ -722,12 +748,12 @@ footer h2 {
             max-width: 354px;
             margin-left: 10px;
         }
-        .hebergement_montrer_plus
-        {
+
+        .hebergement_montrer_plus {
             margin-left: 10px;
         }
-        .titre_activites
-        {
+
+        .titre_activites {
             margin-left: -10px;
         }
 
@@ -828,8 +854,13 @@ footer h2 {
         .titre_hebergements_a_marseille {
             margin-left: 20px;
         }
-        .titre_activite1, .titre_activite2, .titre_activite3, .titre_activite4, .titre_activite5, .titre_activite6
-        {
+
+        .titre_activite1,
+        .titre_activite2,
+        .titre_activite3,
+        .titre_activite4,
+        .titre_activite5,
+        .titre_activite6 {
             margin-left: 15px;
         }
     }
@@ -848,10 +879,11 @@ footer h2 {
             bottom: 50%;
             right: -15%;
         }
-        .hebergementancre
-        {
+
+        .hebergementancre {
             margin-left: 35px;
         }
+
         .activite1,
         .activite2,
         .activite3,
@@ -860,6 +892,7 @@ footer h2 {
         .activite6 {
             margin-left: -10px;
         }
+        
 
 
     }
@@ -870,9 +903,10 @@ footer h2 {
             bottom: 50%;
             right: -30%;
         }
-        .hebergementancre
-        {
+
+        .hebergementancre {
             margin-left: 35px;
+            width: 120px;
         }
 
     }
