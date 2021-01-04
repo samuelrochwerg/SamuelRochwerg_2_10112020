@@ -112,6 +112,13 @@ a:hover {
 .sinscrire:hover {
     border-top: 3px solid #0065FC;
 }
+header nav a {
+    margin-left: 20px;
+}
+header nav {
+    display: flex;
+    align-items: center;
+}
 
 /*Titre principal*/
 
@@ -672,6 +679,21 @@ footer h2 {
 
 
     @media all and (max-width : 425px) {
+        header 
+        {
+            position: relative;
+            margin-bottom: 50px;
+        }
+        .hebergements-activites
+        {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+
 
         .box_carte,
         .activite1,
@@ -796,7 +818,6 @@ footer h2 {
 
         header {
             display: flex;
-            flex-direction: column;
             position: relative;
 
         }
@@ -892,7 +913,7 @@ footer h2 {
         .activite6 {
             margin-left: -10px;
         }
-        
+
 
 
     }
