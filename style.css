@@ -552,6 +552,12 @@ footer h2 {
     }
 }
 
+@media all and (max-width : 1360px){
+    header, .header_2, #filtres-section {
+        margin-left: 15px;
+    }
+}
+
 
 @media all and (max-width : 1300px) {
 
@@ -667,6 +673,9 @@ footer h2 {
             position: relative;
             margin-bottom: 50px;
         }
+        header, .header_2, #filtres-section {
+            margin-left: 0px;
+        }
         .headersignup{
             margin-right: 10px;
         }
@@ -736,6 +745,7 @@ footer h2 {
 
         #container_hebergements_populaires {
             margin-bottom: 20px;
+            padding-left: 44px;
         }
 
         .box_carte {
@@ -744,16 +754,20 @@ footer h2 {
         }
 
         .hebergement_montrer_plus {
-            margin-left: 10px;
-        }
-
-        .titre_activites {
-            margin-left: -10px;
+            margin-left: 20px;
         }
 
         .photo_hebergement {
             width: 320px;
             margin-left: 2px;
+        }
+        .activite1, .activite2, .activite3, .activite4, .activite5, .activite6
+        {
+            width: 340px;
+        }
+        .activites
+        {
+            padding-left: 15px;
         }
 
         .photo_activite11,
@@ -762,7 +776,7 @@ footer h2 {
         .photo_activite44,
         .photo_activite55,
         .photo_activite66 {
-            width: 300px;
+            width: 330px;
             margin-left: 5px;
             margin-top: 5px;
         }
@@ -825,7 +839,7 @@ footer h2 {
         }
 
         .titre_activites {
-            margin-left: 50px;
+            margin-left: 60px;
         }
 
         #logo {
@@ -900,6 +914,10 @@ footer h2 {
         .activite6 {
             margin-left: -10px;
         }
+        .activites
+        {
+            padding-left: 0px;
+        }
         .box_populaire_carte
         {
             max-width: 260px;
@@ -938,6 +956,10 @@ footer h2 {
         {
             margin-left: 20px;
         }
+        footer 
+        {
+            flex-direction: column;
+        }
 
 
     }
@@ -949,12 +971,12 @@ footer h2 {
         #container_hebergements_populaires
         {
             max-width: 320px;
-            padding-left: 25px;
+            padding-left: 18px;
             padding-right: 10px;
         }
         #hebergements_a_marseille
         {
-            padding-left: 20px;
+            padding-left: 8px;
             padding-right: 5px;
         }
         #Activités_à_Marseille
