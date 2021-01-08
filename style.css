@@ -677,12 +677,12 @@ footer h2 {
             position: relative;
             margin-bottom: 50px;
         }
-        .rechercher
-        {
+
+        .rechercher {
             display: none;
         }
-        .rechercher_loupe
-        {
+
+        .rechercher_loupe {
             display: block;
             width: 40px;
             background-color: #0065FC;
@@ -691,8 +691,8 @@ footer h2 {
             border: none;
             border-radius: 0 1rem 1rem 0;
         }
-        .rechercher_loupe .fas 
-        {
+
+        .rechercher_loupe .fas {
             color: white;
         }
 
