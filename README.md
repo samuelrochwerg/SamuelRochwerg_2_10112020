@@ -10,6 +10,9 @@ L'objectif est de réaliser l'intégration de la maquette d'un site de planifica
 
 ![maquette web reservia](./img/mockup/desktop.png)
 
+![image](https://user-images.githubusercontent.com/74596401/112171381-0bbaba80-8bf4-11eb-82b6-c658a13885be.png)
+
+
 ## Éléments fournis par l'entreprise virtuelle
 - Les maquettes desktop et mobile sont fournies
 - Toutes les images présentes sur le site sont aussi livrées en format sm, md, l & xl.
