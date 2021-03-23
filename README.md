@@ -11,6 +11,16 @@ L'objectif est de réaliser l'intégration de la maquette d'un site de planifica
 
 ![image](https://user-images.githubusercontent.com/74596401/112171381-0bbaba80-8bf4-11eb-82b6-c658a13885be.png)
 
+## Technologies, logiciels et langages utilisés
+- Visual Studio Code
+- Git et Github
+- HTML5
+- CSS3
+- Gimp
+- Plugins : Liveserver, Beautify
+- Flexbox
+- Devtools
+
 
 ## Éléments fournis par l'entreprise virtuelle
 - Les maquettes desktop et mobile sont fournies
@@ -31,13 +41,3 @@ L'objectif est de réaliser l'intégration de la maquette d'un site de planifica
 - Le HTML et le CSS doivent être séparés et le dossier doit être organisé
 - Le code doit être versionné avec git et doit avoir un repo distant sur Github ou Gitlab
 - Le site doit être responsive
-
-## Technologies, logiciels et langages utilisés
-- Visual Studio Code
-- Git et Github
-- HTML5
-- CSS3
-- Gimp
-- Plugins : Liveserver, Beautify
-- Flexbox
-- Devtools
