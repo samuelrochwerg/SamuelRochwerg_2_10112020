@@ -8,7 +8,6 @@ Deuxième projet du parcours développeur web chez OpenClassrooms : "Transformez
 
 L'objectif est de réaliser l'intégration de la maquette d'un site de planification de vacances nommé "Reservia" (voir l'image ci-dessous).
 
-![maquette web reservia](./img/mockup/desktop.png)
 
 ![image](https://user-images.githubusercontent.com/74596401/112171381-0bbaba80-8bf4-11eb-82b6-c658a13885be.png)
 
