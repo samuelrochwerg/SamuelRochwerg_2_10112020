@@ -14,7 +14,6 @@ L'objectif est de réaliser l'intégration de la maquette d'un site de planifica
 
 ## Éléments fournis par l'entreprise virtuelle
 - Les maquettes desktop et mobile sont fournies
-- Toutes les images présentes sur le site sont aussi livrées en format sm, md, l & xl.
 - Les icônes proviennent de [Font Awesome](https://fontawesome.com/)
 - Les couleurs : bleu #0065FC - bleu clair #DEEBFF - gris #F2F2F2
 - La police : ["Raleway"](https://fonts.google.com/specimen/Raleway)
@@ -31,6 +30,14 @@ L'objectif est de réaliser l'intégration de la maquette d'un site de planifica
 - Le site devra être compatible avec les dernières versions de Chrome et Firefox.
 - Le HTML et le CSS doivent être séparés et le dossier doit être organisé
 - Le code doit être versionné avec git et doit avoir un repo distant sur Github ou Gitlab
+- Le site doit être responsive
 
-## Notes sur la réalisation du projet
-- L'integration est faite sur l'éditeur Visual Studio Code
+## Technologies, logiciels et langages utilisés
+- Visual Studio Code
+- Git et Github
+- HTML5
+- CSS3
+- Gimp
+- Plugins : Liveserver, Beautify
+- Flexbox
+- Devtools
